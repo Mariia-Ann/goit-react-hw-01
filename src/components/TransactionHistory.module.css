@@ -1,0 +1,21 @@
+.transactionHistory {
+width: 800px;
+margin: 0 auto;
+font-size: 30px;
+border-collapse: collapse;
+}
+.transactionHeader {
+    background-color: rgb(53, 51, 51);
+    color: white;
+    width: calc(100% / 3);
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.transactionTr:nth-child(even) {
+    background-color: lightgrey;
+  }
+.transactionInfo {
+    padding: 5px;
+    border: 3px solid black;
+}
